@@ -8,7 +8,4 @@ export default defineConfig({
     port: process.env.PORT || 3000, // fallback to port 3000 if PORT is not set
   },plugins: [react()],
 });
-
-export default defineConfig({
-  plugins: [react()],
 })
